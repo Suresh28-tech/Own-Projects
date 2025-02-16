@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.head{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.inputs{
+    margin: auto;
+    text-align: center;
+}
+
+.inputs input:hover{
+    border: #3bc02997 3px solid;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.inputs input:active{
+    border: #3bc02997 3px solid;
+    transform: scale(1);
+}
+
+.inputs input{
+    width: 500px;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 10px 10px 10px 20px;
+    border: #3bc029 2px solid;
+}
+
+.inputs button{
+    border-radius: 30px;
+    border: none;
+    border: #3bc029 2px solid;
+    background-color: #3bc029;
+}
+
+.inputs button:hover{
+    border: #3bc02997 3px solid;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.inputs button:active{
+    border: #3bc02997 3px solid;
+    transform: scale(1);
+}
+
+.inputs button img{
+    width: 50px;
+}
+
+.res p{
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.list div{
+    margin: 70px;
+}
+
+.list div img{
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.list div p{
+    font-size: 20px;
+}
+
+.list div button{
+    border: #29fb8b 2px solid;
+    background-color: #29fb8b;
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    width: 130px;
+    font-size: large;
+}
+
+.list div button:active{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.popup{
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.name{
+    font-size: 3rem;
+}
+
+.inst{
+    font-size: 2rem;
+}
+
+#next{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    width: 170px;
+    height: 50px;
+    border: #29fb8b 2px solid;
+    background-color: #29fb8b;
+    border-radius: 10px;
+    outline: none;
+}
+
+#next:active{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.popupimg{
+    border-radius: 10px;
+}
